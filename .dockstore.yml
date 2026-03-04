@@ -1,0 +1,17 @@
+version: 1.2
+
+workflows:
+  - name: bcftools-concat
+    subclass: WDL
+    primaryDescriptorPath: /bcftools/wdl/bcftools_concat.wdl
+    topic: Concatenate VCF files using bcftools
+
+  - name: bcftools-merge
+    subclass: WDL
+    primaryDescriptorPath: /bcftools/wdl/bcftools_merge.wdl
+    topic: Merge VCF files using bcftools
+
+  - name: bcftools-view
+    subclass: WDL
+    primaryDescriptorPath: /bcftools/wdl/bcftools_view.wdl
+    topic: Filter and subset VCF files using bcftools
