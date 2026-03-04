@@ -1,4 +1,4 @@
-# bcf-wdl
+# bcftools patched!
 
 WDL workflows for running **patched** bcftools against VCFs streamed directly from GCS, without silent data corruption.
 
